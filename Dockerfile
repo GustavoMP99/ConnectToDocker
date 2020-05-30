@@ -1,5 +1,5 @@
-FROM amytabb/docker_ubuntu16_essentials:latest
-COPY Code /Code
-WORKDIR /Code/
-RUN gcc -o Code main.c
-CMD ["./Code"]
+FROM amytabb/docker_ubuntu16_essentials
+COPY HelloWorld /HelloWorld
+WORKDIR /HelloWorld/
+RUN g++ -o HelloWorld helloworld.cpp
+CMD ["./HelloWorld"]
