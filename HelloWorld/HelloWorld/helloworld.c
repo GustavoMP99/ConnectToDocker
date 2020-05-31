@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <regex.h>
 #include <string.h>
-#include <comip.h>
+#include <stdlib.h>
 #include <stdbool.h>//to add booleans
 //There is a test file, to open write: test.txt
 
